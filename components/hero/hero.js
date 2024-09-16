@@ -72,7 +72,7 @@ const Hero = () => {
                     </div> */}
                         <div className="hero-btn">
                             <button onClick={showModal} className="theme-btn">
-                                Get Started<i className="ti-arrow-right"></i>
+                                Get a Free Consultancy<i className="ti-arrow-right"></i>
                             </button>
                         </div>
                     </div>
@@ -161,9 +161,3 @@ const Hero = () => {
 }
 
 export default Hero;
-
-
-
-
-
-

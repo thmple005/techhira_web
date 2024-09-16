@@ -10,8 +10,8 @@ import pimg4 from '/public/images/project/4.png'
 const Projects = [
     {
         id: '1',
-        title: 'Best/Rated Food',
-        subtitle: 'Find',
+        title: 'Restaurant Apps',
+        subtitle: 'Build',
         slug: '/project-food-fling/foodfling',
         pimg1: pimg1,
         date: 'Feb 2024',
@@ -26,8 +26,8 @@ const Projects = [
     },
     {
         id: '2',
-        title: 'Dating Partner',
-        subtitle: 'Find Best',
+        title: 'Dating Apps',
+        subtitle: 'Build',
         slug: '/project-meetsy-app/meetsy',
         pimg1: pimg2,
         date: 'Feb 2024',
@@ -42,8 +42,8 @@ const Projects = [
     },
     {
         id: '3',
-        title: 'Delivery Trucks',
-        subtitle: 'Book Your',
+        title: 'Trucking Apps',
+        subtitle: 'Build',
         slug: '/project-truckifind-app/truckifind',
         pimg1: pimg3,
         date: 'Feb 2024',
@@ -58,8 +58,8 @@ const Projects = [
     },
     {
         id: '4',
-        title: 'Cars',
-        subtitle: 'Buy/Sell',
+        title: 'Car Selling Apps',
+        subtitle: 'Build',
         slug: '/project',
         pimg1: pimg4,
         date: 'Feb 2024',

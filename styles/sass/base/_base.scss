@@ -106,6 +106,21 @@ img {
     }
 }
 
+.section-buttom-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+
+    // @include media-query(991px) {
+    //     padding: 50px ;
+    // }
+
+    // @include media-query(767px) {
+    //     padding: 50px ;
+    // }
+}
+
 
 
 /*** contact form error handling ***/
@@ -360,8 +375,10 @@ ul.smothscroll {
 
 
 ul.smothscroll .li-arrow-icon{
-    width: 75px;
-    height: 75px;
+    background-color: rgba(35, 63, 214, 0.4);
+    width: 45px;
+    height: 45px;
+    background-color: rgba(35, 63, 214, 0.4);
     line-height: 45px;
     border-radius: 50%;
     display: flex;
@@ -372,11 +389,11 @@ ul.smothscroll .li-arrow-icon{
 }
 
 @media(max-width:767px){
-    ul.smothscroll .li-arrow-icon {
-        width: 85px;
-        height: 85px;
-        line-height: 25px;
-    }
+    // ul.smothscroll .li-arrow-icon {
+    //     width: 85px;
+    //     height: 85px;
+    //     line-height: 25px;
+    // }
     ul.smothscroll {
         right: 2px;
     }
