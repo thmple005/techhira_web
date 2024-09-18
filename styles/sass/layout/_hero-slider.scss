@@ -23,7 +23,7 @@
 
 
 	.content {
-		max-width: 766px;
+		max-width: 651px;
 		text-align: left;
 		padding-top: 100px;
 
@@ -97,16 +97,16 @@
 
 			h2 {
 				color: $heading-color;
-				font-size: 70px;
+				font-size: 59px;
 				font-weight: 700;
 				margin-bottom: 20px;
 
 				@media (max-width:1199px) {
-					font-size: 66px;
+					font-size: 55px;
 				}
 
 				@media (max-width:991px) {
-					font-size: 55px;
+					font-size: 49px;
 				}
 
 				@media (max-width:575px) {

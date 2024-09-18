@@ -66,13 +66,13 @@ const ProjectSection = (props) => {
             <div className='section-buttom-text'>
                 <p>Let's bring your idea to live today!</p>
             </div>
-            <div className='section-buttom-button'>
+            {/* <div className='section-buttom-button'>
                 <div className="hero-btn">
                     <button onClick={showModal} className="theme-btn">
                         Get a Free Consultancy
                     </button>
                 </div>
-            </div>
+            </div> */}
         </>
     )
 }

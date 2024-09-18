@@ -302,7 +302,7 @@
 .services-section-s3 {
     position: relative;
     z-index: 1;
-    padding-bottom: 70px;
+    padding-bottom: 10px;
 
     @media (max-width:991px) {
         padding-bottom: 40px;
@@ -448,8 +448,8 @@
 
 
         h2 {
-            // color: $heading-color;
-            color: #FFF;
+            color: $heading-color;
+            // color: #FFF;
             font-size: 27px;
             font-weight: 700;
             line-height: 70px;
@@ -461,8 +461,8 @@
         }
 
         span {
-            // color: $text-color;
-            color: #FFF;
+            color: $text-color;
+            // color: #FFF;
             font-size: 18px;
             font-weight: 400;
             line-height: 32px;
@@ -1187,6 +1187,7 @@
 /*3.8 cta-section */
 .cta-section {
     margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 .cta-wrap {
@@ -1301,7 +1302,7 @@
 
             button {
                 border: transparent;
-                width: 50%;
+                width: 100%;
                 height: 100%;
                 height: 55px;
                 border-radius: 10px;

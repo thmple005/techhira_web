@@ -22,11 +22,13 @@ const HomePage = () => {
             <Hero />
             {/* <FunfactSecion /> */}
             {/* <About /> */}
-            <ProjectSection hclass={"project-section"} />
+            
             <ServiceSection hclass={'services-section'} />
+            <ProjectSection hclass={"project-section"} />
             {/* <VideosSection /> */}
-            <TestimonialSection />
             <CtaSection />
+            <TestimonialSection />
+            
             {/* <BlogSection /> */}
             <Footer />
             <Scrollbar />

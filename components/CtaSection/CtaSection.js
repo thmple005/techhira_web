@@ -67,7 +67,7 @@ const CtaSection = () => {
                     </form> */}
                         <div className="cta-form">
                             <div className="input-filled">
-                                    <button type="submit" onClick={showModal}>Let's Talk</button>
+                                    <button type="submit" onClick={showModal}>Get a Free Consultancy</button>
                             </div>
                         </div>
                     </div>

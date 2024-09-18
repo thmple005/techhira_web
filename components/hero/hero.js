@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import CountUp from 'react-countup';
 import LikeShape from "/public/images/slider/like.svg"
-import liderd12 from "/public/images/slider/Frame 2.png"
+import liderd12 from "/public/images/slider/Frame 73-3.png"
 import Arrow from "/public/images/slider/award.svg"
 import ContactUsModal from "../ModalContactUs/ContactUsModal";
 import { useState } from "react";
@@ -58,8 +58,8 @@ const Hero = () => {
                             </div>
                             <span>Create Your Dream Project With Us</span>
                         </div>
-                        <div className="sub-title" >
-                            <h2>
+                        <div className="sub-title">
+                        <h2>
                                 We Develop
                             </h2>
                             <h2><span>Websites & Mobile Apps </span> </h2>
@@ -67,9 +67,6 @@ const Hero = () => {
                         <p>We prioritize
                             understanding your unique business requirements,
                             tailoring solutions that not only meet your needs but also exceed your expectations.</p>
-                        {/* <div className="hero-btn">
-                        <Link href="/about" className="theme-btn" onClick={ClickHandler}> Get Started<i className="ti-arrow-right"></i></Link>
-                    </div> */}
                         <div className="hero-btn">
                             <button onClick={showModal} className="theme-btn">
                                 Get a Free Consultancy<i className="ti-arrow-right"></i>
@@ -77,18 +74,15 @@ const Hero = () => {
                         </div>
                     </div>
                 </div>
+
                 <div className="image">
                     <Image src={liderd12} alt="" />
-                    {/* <video
-                        controls>
-                        <source src="/1.mov" type="video/mov" />
-                    </video> */}
-                    {/* <div className="bg-shape">
+                    <div className="bg-shape">
                         <svg width="652" height="668" viewBox="0 0 652 668" fill="none">
                             <path
                                 d="M0 367.646C0 360.448 3.86838 353.805 10.129 350.252L622.129 2.95135C635.462 -4.6148 652 5.01565 652 20.3457V648C652 659.046 643.046 668 632 668H20C8.95432 668 0 659.046 0 648V367.646Z" />
                         </svg>
-                    </div> */}
+                    </div>
                 </div>
                 {/* <div className="hero-slider">
                     <Slider {...Seting}>
@@ -153,7 +147,6 @@ const Hero = () => {
                             </radialGradient>
                         </defs>
                     </svg>
-
                 </div>
             </section>
         </>
